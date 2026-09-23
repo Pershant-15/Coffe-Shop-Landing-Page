@@ -49,7 +49,7 @@ vistra-coffee/
 │       ├── hero.webp
 │       ├── coffee-1.webp
 │       ├── coffee-2.webp
-│       └── preview.png
+│      
 │
 ├── src/
 │   ├── input.css
