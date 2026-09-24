@@ -46,9 +46,6 @@ vistra-coffee/
 ├── public/
 │   └── images/
 │       ├── logo.png
-│       ├── hero.webp
-│       ├── coffee-1.webp
-│       ├── coffee-2.webp
 │      
 │
 ├── src/
