@@ -21,7 +21,6 @@ Vistra Coffee is designed to provide a clean, elegant, and user-friendly online 
 - 🧭 Responsive navigation bar
 - 🖼️ Attractive hero section
 - ☕ Coffee/product showcase
-- 📖 About section
 - 📍 Location/contact section
 - 🔘 Call-to-action buttons
 - 🎨 Modern UI built with Tailwind CSS
