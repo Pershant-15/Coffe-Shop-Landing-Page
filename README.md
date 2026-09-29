@@ -40,6 +40,10 @@ Vistra Coffee is designed to provide a clean, elegant, and user-friendly online 
 
 ## 📂 Project Structure
 
+readme updated........
+
+
+
 ```text
 vistra-coffee/
 │
@@ -58,3 +62,5 @@ vistra-coffee/
 ├── index.html
 ├── .gitignore
 └── README.md
+
+
