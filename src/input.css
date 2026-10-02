@@ -11,6 +11,8 @@ body {
   background: #f1eee1;
 }
 
+.logo svg { height: 58px; width: auto; }
+
 /* Page content (gradient area) */
 .container {
   background: linear-gradient(135deg, #91694d, #b19f88, #91694d);
