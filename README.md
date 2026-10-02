@@ -19,7 +19,6 @@ Vistra Coffee is designed to provide a clean, elegant, and user-friendly online 
 - ☕ Modern coffee shop landing page
 - 📱 Fully responsive design
 - 🧭 Responsive navigation bar
-- 🖼️ Attractive hero section
 - ☕ Coffee/product showcase
 - 📖 About section
 - 📍 Location/contact section
