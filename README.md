@@ -8,7 +8,7 @@ Vistra Coffee is designed to provide a clean, elegant, and user-friendly online 
 
 ## 📸 Preview
 
-![Vistra Coffee Preview](./public/images/download.jpg)
+
 
 > Add a screenshot of your website at `public/images/preview.png`.
 
