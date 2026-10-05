@@ -170,3 +170,149 @@ body {
     gap: 20px;
   }
 }
+
+/* ===================== HOME PAGE BODY ===================== */
+
+.home {
+  background: linear-gradient(135deg, #91694d, #b19f88, #91694d);
+  padding: 80px 40px 100px;
+}
+
+/* Intro */
+.intro {
+  max-width: 720px;
+  margin: 0 auto 90px;
+  text-align: center;
+  color: #111;
+}
+
+.intro-eyebrow {
+  margin: 0 0 12px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.intro h1 {
+  margin: 0 0 20px;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 1.1;
+}
+
+.intro-text {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+/* One coffee: image with the description card overlapping in front */
+.coffee {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto 90px;
+}
+
+.coffee:last-child {
+  margin-bottom: 05
+}
+
+.coffee-img {
+  width: 500px;
+  height: 500px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #dbc5a8, #91694d); /* shows if an image is missing */
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
+}
+
+.coffee-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.coffee-card {
+  position: relative;
+  z-index: 1;
+  width: 46%;
+  margin-left: -8%;           /* pulls the card over the image */
+  padding: 44px 40px;
+  background: #f1eee1;
+  color: #111;
+  border-radius: 6px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
+}
+
+.coffee-number {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: #91694d;
+}
+
+.coffee-card h2 {
+  margin: 0 0 16px;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.1;
+}
+
+.coffee-card p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.75;
+}
+
+/* Alternate rows: image on the right, card on the left */
+.coffee.reverse {
+  flex-direction: row-reverse;
+}
+
+.coffee.reverse .coffee-card {
+  margin-left: 0;
+  margin-right: -8%;
+}
+
+/* Tablet / mobile */
+@media (max-width: 900px) {
+  .home {
+    padding: 50px 20px 70px;
+  }
+
+  .intro {
+    margin-bottom: 60px;
+  }
+
+  .intro h1 {
+    font-size: 52px;
+  }
+
+  .coffee,
+  .coffee.reverse {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  .coffee-img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .coffee-card,
+  .coffee.reverse .coffee-card {
+    width: 90%;
+    margin: -50px 0 0;       /* card overlaps the bottom of the image */
+    padding: 32px 26px;
+  }
+}
