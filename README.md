@@ -23,7 +23,7 @@ Vistra Coffee is designed to provide a clean, elegant, and user-friendly online 
 ## 🛠️ Technologies Used
 
 - **HTML5**
-- **Tailwind CSS**
+- **CSS3**
 - **Vite**
 - **Git & GitHub**
 
